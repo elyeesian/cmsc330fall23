@@ -25,9 +25,15 @@
    ```ocaml
    [1a] fun a b -> b < a
 
+   val fun = int -> int -> bool
+
    [1b] fun a b -> b + a > b - a
 
+   val fun = int -> int -> bool
+
    [1c] fun a b c -> (int_of_string c) * (b + a)
+
+   val fun = int -> int -> int -> int
 
    [1d] fun a b c -> (if c then a else a) * (b + a)
 
